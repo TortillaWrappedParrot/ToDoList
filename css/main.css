@@ -1,5 +1,5 @@
 body{
-    background-image: url('clipBackground.jpg');
+    background-image: url('../images/clipBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
