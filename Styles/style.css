@@ -1,0 +1,37 @@
+body{
+    background-image: url('../Images/clipBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li {
+    list-style: none;
+}
+
+.greetings {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.centerAlign {
+    align-self: center;
+    text-align: center;
+}
+
+.newClass {
+    width: 50%;
+    height: 5%;
+    border: 5px dotted black;
+    align-self: center;
+    text-align: center;
+}
+
+#toDoListDisplay{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    float: left;
+    overflow-y: auto;
+    flex-direction: column;
+}
