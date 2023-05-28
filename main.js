@@ -13,7 +13,7 @@ function checkBox() {
     var item = objList[id];
     if (item.completed == false) {
         item.completed = true;
-        this.style.backgroundImage = "url('../Images/scaled.png')";
+        this.style.backgroundImage = "url('scaled.png')";
     }
     else {
         item.completed = false;
@@ -45,7 +45,7 @@ function displayItem(item) {
     button.id = '' + (objList.length - 1);
     button.addEventListener("click", checkBox);
     if (item.completed == true) {
-        button.style.backgroundImage = "url('../Images/scaled.png')";
+        button.style.backgroundImage = "url('scaled.png')";
     }
     document.getElementById("toDoListDisplay").appendChild(holder);
     holder.appendChild(button);
